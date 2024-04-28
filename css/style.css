@@ -94,3 +94,19 @@ iframe {
 .svg-sprite {
   display: none;
 }
+
+@media (width >= 620px) {
+  .container {
+    --offset-container: 40px;
+  }
+}
+
+@media (width >= 860px) {
+
+}
+
+@media (width >= 1140px) {
+  .container {
+    --offset-container: 70px;
+  }
+}

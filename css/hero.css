@@ -55,3 +55,78 @@
   font-size: 14px;
   color: var(--orange);
 }
+
+@media (width >= 620px) {
+  .hero {
+    padding: 116px 0 90px;
+    border-radius: 0 0 32px 32px;
+    margin-bottom: 60px;
+  }
+
+  .hero__content {
+    max-width: 544px;
+  }
+
+  .hero__title {
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+
+  .hero__tagline {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .hero__order {
+    font-size: 20px;
+  }
+
+  .hero__container::after {
+    bottom: -60px;
+    right: calc(var(--offset-container) + 10px);
+  }
+}
+
+@media (width >= 860px) {
+  .hero {
+    padding: 116px 0 80px;
+    margin-bottom: 82px;
+  }
+
+  .hero__content {
+    max-width: 544px;
+  }
+
+  .hero__container::after {
+    bottom: -60px;
+    right: calc(var(--offset-container) - 7px);
+    max-width: 566px;
+    max-height: 499px;
+  }
+}
+
+@media (width >= 1140px) {
+  .hero {
+    padding: 140px 0 100px;
+    margin-bottom: 87px;
+  }
+
+  .hero__content {
+    max-width: 620px;
+  }
+
+  .hero__title {
+    font-size: 80px;
+  }
+
+  .hero__tagline {
+    margin-bottom: 64px;
+  }
+
+  .hero__container::after {
+    bottom: -87px;
+    right: calc(var(--offset-container) + 30px);
+    width: 670px;
+    height: 591px;
+  }
+}

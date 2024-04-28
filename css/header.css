@@ -24,3 +24,13 @@
 .header__cart:hover {
   color: var(--orange);
 }
+
+@media (width >= 540px) {
+  .header {
+    top: 40px;
+  }
+  
+  .header__logo {
+    width: 164px;
+  }
+}
